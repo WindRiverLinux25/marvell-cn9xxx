@@ -231,18 +231,3 @@ The following steps can be used to validate the EDAC/GHES on cn96xx:
 Below is an output example:
     EDAC octeontx: Inject: CPU11: (0xc2000c0b, 0x3, 0x800000, 0x200, 0x0) 0x0
     EDAC MC0: 1 CE LMC1: DIMM0,R0/0 on any memory ( page:0x80 offset:0x0 grain:1 syndrome:0xce - card:1 module:0 bank:5 row:21 column:336 single-bit ECC )
-
-8. Build kernel based on SDK12 v6.1
-===================================
-
-Method 1:
-
-    Add "--templates cn96xx-base61" to the setup.sh parameters.
-    Example:
-        setup.sh --machines marvell-cn96xx --templates cn96xx-base61
-
-Method 2:
-
-    If you opt not to use wrtemplate, you can also activate the kernel
-    based on SDK12 v6.1 by adding the following statement to local.conf.
-        ENABLE_MARVELL_BASE61 = "1"
