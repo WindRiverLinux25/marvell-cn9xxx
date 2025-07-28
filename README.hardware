@@ -34,8 +34,7 @@ The following BSP features are validated and supported.
 		+ I2C:
 			+ 6x THUNDERX TWSI / I2C Controller
 		+ PCI-Express:
-			+ 1x PCIe x8 Gen4
-			+ 1x Mini PCIe
+			+ 2x PCIe x8 Gen4
 
 	o Network
 		+ Ethernet:
