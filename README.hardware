@@ -42,7 +42,6 @@ The following BSP features are validated and supported.
 			+ 2x SFP28 direct connection
 			+ 4x SFP28 (as 1x 100G-R4 on J9C/D/A/B)
 			+ 1x 10GBase-T copper connection
-			+ 1x 1G AX88179 USB to Ethernet
 
 	o USB
 		+ USB XHCI controller:
