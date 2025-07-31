@@ -40,6 +40,7 @@ The following BSP features are validated and supported.
 		+ Ethernet:
 			+ 1x QSFP28
 			+ 2x SFP28 direct connection
+			+ 4x SFP28 (as 1x 100G-R4 on J9C/D/A/B)
 			+ 1x 10GBase-T copper connection
 			+ 1x 1G AX88179 USB to Ethernet
 
@@ -62,15 +63,6 @@ The following BSP features are validated and supported.
 		+ Temperature sensor
 		+ UART: 8250/16550A compatible serial port
 		+ Watchdog
-
-3.2 Unsupported Features
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-The following features are not supported and not validated.
-
-	x Network
-		x Ethernet:
-			x 4x SFP28
 
 4. BSP Notes
 ============
